@@ -1,0 +1,33 @@
+:root {
+    --text-color: rgb(137, 134, 134);
+}
+
+body {
+    background-color: black;
+    font-family: quicksand;
+}
+
+.navbar-brand {
+    color: var(--text-color);
+    margin-right: 50%;
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin: 0% 15%;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
