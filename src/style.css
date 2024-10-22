@@ -2,6 +2,13 @@
     --text-color: rgb(137, 134, 134);
 }
 
+@media (max-width: 780px) {
+    .box {
+        float: none;
+        clear: left;
+    }
+}
+
 body {
     background-color: black;
     font-family: quicksand;
@@ -39,7 +46,7 @@ img {
     margin-top: 100px;
 }
 
-.intro {
+.box {
     float: left;
     max-width: 50%;
 }
@@ -60,6 +67,22 @@ h2 {
 }
 
 button {
-    margin-top: 550px;
-    margin-left: 250px;
+    margin-top: 50px;
+    margin-left: 320px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: grey;
+    transition: all ease-in-out 0.3s;
+}
+
+button:hover {
+    scale: 1.2;
+    background-color: rgba(255, 255, 255, 0.705);
+    color: rgb(32, 30, 30);
+}
+
+.my-projects {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
